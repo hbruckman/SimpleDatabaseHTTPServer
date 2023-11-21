@@ -18,7 +18,7 @@ public class SimpleDatabaseHTTPServer
 		server = new HttpListener();
 		server.Prefixes.Add("http://127.0.0.1:8080/");
 		isListening = false;
-		dbc = new MySqlConnection("server=localhost;port=3306;user=root;password=S3rver_P@$5w0rd;database=popodb;");
+		dbc = new MySqlConnection("server=localhost;port=3306;user=root;password=12345;database=mydb;");
 	}
 
 	public void StartListening()
